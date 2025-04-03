@@ -1,0 +1,54 @@
+.myNav{
+    background-color: rgb(166, 224, 169);
+}
+#navbarSupportedContent{
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.container{
+    margin: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 7vh;
+}
+.myContainer{
+    background-color: rgb(208, 248, 217);
+    width: 120vh;
+    height: 70vh;
+    border-radius: 2.5vh;
+    text-align: center;
+}
+.myContainer h1{
+    text-align: center;
+    padding: 2vh 0vh;
+}
+.myContainer p{
+    padding: 0vh 5vh;
+  }
+.container-fluid img{
+    height: 12vh;
+}
+.container-fluid{
+    height: 10vh;
+    
+}
+.accordion{
+    --bs-accordion-active-bg: rgb(143, 199, 151);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-bg: rgb(165, 222, 165);
+    --bs-accordion-btn-color: white;
+    --bs-accordion-active-color: rgb(26, 128, 0);
+}
+.accordion-collapse{
+    background-color: rgb(247, 255, 245);
+}
+.myContainerCarousel{
+    width: 70vh;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+ 
+.myContainer button{
+    width: 50vh;
+    height: 8vh;
+}

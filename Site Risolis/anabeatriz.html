@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Risolis - Ana Beatriz</title>
+</head>
+<body>
+
+<style>
+    .bg-color{
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand{
+        color: aliceblue !important;
+        text-shadow: 0px 2px 3px rgb(66, 3, 82);
+    }
+    .navbar{
+        padding: 20px;
+    }
+    .navbar-nav a{
+        color: aliceblue !important;
+    }
+    .dropdown-menu a{
+        color: black !important;
+    }
+    .icon{
+        width: 10vh;
+        padding-right: 1vh;
+    }
+    .musicafav{
+      margin-top: 3vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icone img{
+      width: 30vh;
+      border-radius: 100%;
+      border: 0.4vh solid black;
+      box-shadow: 0vh 0vh 6vh 0.1vh rgb(255, 255, 255);
+      margin: 3vh;
+    }
+    .icone{
+      display: flex;
+      justify-content: center;
+    }
+    .personalidade{
+      background-color: black;
+      width: 60%;
+      border-radius: 20px;
+      margin-top: 8vh;
+      color: aliceblue;
+      font-size: 2.5vh;
+      padding-bottom: 5vh;
+      padding: 4vh;
+    }
+    .progress{
+      margin: 2vh 1vh 1vh 1vh;
+    }
+    .accordion{
+      padding: 3vh;
+      padding-bottom: 7vh;
+    }
+    .accordion-body{
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+    }
+    .accordion-body h2{
+      padding: 5vh;
+    }
+    .accordion-body img{
+      width: 20vh;
+    }
+    .accordion-button{
+      color: aliceblue;
+      background-color: black;
+    }
+    .accordion-collapse{
+      color: aliceblue;
+      background-color: black;  
+    }
+
+</style>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container-fluid">
+            <img src="imagens/icon_anabi.png" class="icon">
+          <span class="navbar-brand" href="#"><h1>Risolis - Ana Beatriz</h1></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Início</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Páginas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="anabeatriz.html">Ana Beatriz</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="anaclara.html">Ana Clara</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="juliana.html">Juliana</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="lara.html">Lara</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="cadastro.html">Cadastro</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Personalidade-->
+
+      <div class="personalidade container-fluid">
+        <div class="icone">
+          <img src="Imagens/AB.jpg" alt="Ana Beatriz">
+        </div>
+
+        Estresse
+        <div class="progress" role="progressbar" aria-label="Estresse" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 0%"></div>
+        </div>
+        Extrovertido
+        <div class="progress" role="progressbar" aria-label="Extrovertido" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Paciente
+        <div class="progress" role="progressbar" aria-label="Paciente" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Perfeccionista
+        <div class="progress" role="progressbar" aria-label="Perfeccionista" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Otimista
+        <div class="progress" role="progressbar" aria-label="Otimista" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Organizado
+        <div class="progress" role="progressbar" aria-label="Organizado" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Sincero
+        <div class="progress" role="progressbar" aria-label="Sincero" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+        Carismático
+        <div class="progress" role="progressbar" aria-label="Carismático" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%"></div>
+        </div>
+                    
+      </div>
+
+
+      <!--Musica favorita-->
+      <div class="container-md musicafav">
+      <h2>Música favorita: </h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Mc6kQ9QK1LAZE6XzA5ILF?utm_source=generator&theme=0" width="80%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+
+
+      <!--Curiosidades-->
+      <div class="accordion container-fluid" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Filme favorito
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <img src="Imagens/Filme_AB.webp" alt="filmefav">
+                <h2>Piratas do Caribe</h2>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Comida Favorita
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <img src="Imagens/comida_AB.png" alt="comidafav">
+              <h2>Sushi</h2>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Doce Favorito
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <img src="Imagens/Doce_AB.png" alt="docefav">
+              <h2>Kitkat</h2>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Fruta Favorita
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <img src="Imagens/Fruta_AB.webp" alt="frutafav">
+              <h2>Manga</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

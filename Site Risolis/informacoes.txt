@@ -1,0 +1,83 @@
+RISOLIS
+
+1 pag principal pro grupo
+	navbar lilás
+	tipografia
+	carrossel para momentos
+	cards com foto e link pra pag de cada uma
+
+
+4 pag pras informacoes de cada uma
+	navbar preto, roxo, rosa, verde
+	tipografia
+	icones baseado no personagem fav
+	container com musica fav
+	acordion pras informações de cada uma (cor fav, filme fav)
+	progressbar pra personalidade
+	collapse para foto zuada
+	
+
+1 pag cadastro pra amizade
+	navbar lilás
+	tipografia
+	forms
+	grid system pra forms	
+
+
+
+
+
+
+Ana Clara 
+Fantástica fabrica de chocolate 
+People yoongi 
+Polar de urso sem curso 
+Tilápia frita
+Brownie 
+Abacaxi  
+Roxo
+NAclara
+
+
+Lara 
+Os incríveis  
+Thales filho meu 
+Lichia 
+mcqueen
+Torresmo 
+Bolo de aniversário 
+Verde
+Bolinho 
+
+Ana Beatriz 
+Piratas do Caribe 
+Estações dunamis
+Gumball 
+Comida japonesa 
+Kit kat 
+Manga
+Vermelho 
+Bibi
+
+Juliana
+Interestelar
+musca --
+hello kitty
+parmegiana
+churros
+uva verde
+rosa
+jubis
+
+
+
+
+- Estresse
+- Extrovertido
+- Paciente
+- Perfeccionista
+- Otimista
+- Organizado
+- Sincero
+- Carismático
+- Lerdeza
